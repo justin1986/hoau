@@ -19,7 +19,7 @@
 <body>
 	<div id="title" style='background:url("/images/icon/gywm.gif") no-repeat;'>
 		<div style="float:left">资质荣誉</div>
-		<div class="breadcum"><a href="/" target="_parent">首页</a> > <a href="/gywm/" target="_parent">关于我们</a> > <a href="" class="a2">资质荣誉</a></div>
+		<div class="breadcum"><a href="/" target="_parent">首页</a> > <a href="/gywm/" target="_parent">关于我们</a> > <a href="gywm3.php" class="a2">资质荣誉</a></div>
 	</div>
 	<div class="box">
 		<div class="name">AAAAA级物流企业</div>

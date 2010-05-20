@@ -12,7 +12,7 @@
 </head>
 <body>
 <div id="title"><div style="float:left">社会招聘</div>
-	<div class="breadcum"><a href="/" target="_parent">首页</a> > <a href="/rczp/" target="_parent">投资于人</a> > <a href="" class="a2">社会招聘</a></div>
+	<div class="breadcum"><a href="/" target="_parent">首页</a> > <a href="/rczp/" target="_parent">投资于人</a> > <a href="rczp0.php" class="a2">社会招聘</a></div>
 </div>
 <div id="shuom">TNT 集团是全国领先的快递邮政服务供应商，为企业和个人客户提供全方位的快递和邮政服务。总部位于荷兰的TNT集团，在欧洲和亚洲提供高效的递送网络，并且正通过在全球范围内扩大运营分布来最大幅度的优化网络效能。TNT拥有163,000名员工，分布在200多个国家和地区。2008年，集团收入为111亿欧元，营业收入为9.82亿欧元，是全球第一家获得“投资于人”认证的快递企业。
 <br>TNT于2007年3月14日成功收购全国最大物流公司华宇集团，于2009年2月16日宣布收购成功。<br>

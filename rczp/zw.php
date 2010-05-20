@@ -1,8 +1,9 @@
 <?php
     require_once('../frame.php');
-	$id = $_REQUEST['id'];
+	$id = intval($_GET['id']);
 	$zw = new table_class('hoau_position');
 	$zw->find($id);
+	$db = get_db();
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -16,21 +17,52 @@
 </head>
 <body>
 <div id="title"><div style="float:left">社会招聘</div>
-	<div class="breadcum"><a href="/" target="_parent">首页</a> > <a href="/rczp/" target="_parent">人才招聘</a> > 社会招聘</div>
+	<div class="breadcum"><a href="/" target="_parent">首页</a> > <a href="/rczp/" target="_parent">人才招聘</a> > <a href="zw.php?id=<?php echo $id;?>" class="a2">社会招聘</a></div>
 </div>
 
 <div id="a_title"><img src="/images/icon/rc1.gif"><span style="margin-left:5px;">招聘职位</span></div>
 <div class="line3"><?php echo $zw->name;?></div>
 <div id="zw_box"><?php echo $zw->jieshao;?></div>
-<div class="line5" style="margin-top:10px;"><button type="button" id="sq"></button></div>
+<div class="line5" style="margin-top:10px;">
+<?php
+	$sql = "select id,name from hoau_position where 1=1 order by priority asc";
+	$zw = $db->query($sql);
+	$count = count($zw);
+	for($i=0;$i<$count;$i++){
+		if($zw[$i]->id==$id){
+			if($i>0){
+				$prev = $zw[$i-1]->id;
+			}
+			if($i!=$count-1){
+				$next = $zw[$i+1]->id;
+			}
+			break;
+		}
+	}
+	if($prev){
+?>
+<a href="zw.php?id=<?php echo $prev;?>" class="line_link">上一个职位</a>
+<?php
+	}
+?>
+<a href="/rczp/" target="_parent" class="line_link">返回列表</a>
+<?php
+	if($next){
+?>
+<a href="zw.php?id=<?php echo $next;?>" class="line_link">下一个职位</a>
+<?php
+	}
+?>
+	<input type="button" id="sq">
+</div>
 <form action="zw.post.php" method="post" enctype="multipart/form-data">
 <div class="line4 sc" style="display:none">
 	省份<select id="province">
 		<option value="">请选择</option>
 		<?php
-			$db = get_db();
 			$sql = "select * from S_Province";
 			$records = $db->query($sql);
+			$close_db();
 			for($i=0;$i<count($records);$i++){
 		?>
 		<option value="<?php echo $records[$i]->ProvinceID;?>"><?php echo $records[$i]->ProvinceName;?></option>

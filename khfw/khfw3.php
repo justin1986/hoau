@@ -18,7 +18,7 @@
 </head>
 <body>
 	<div id="title" style='background:url("/images/icon/khfw.gif") no-repeat;'><div style="float:left">资料下载</div>
-		<div class="breadcum"><a href="/" target="_parent">首页</a> > <a href="/khfw/" target="_parent">客户服务</a> > <a href="" class="a2">资料下载</a></div>
+		<div class="breadcum"><a href="/" target="_parent">首页</a> > <a href="/khfw/" target="_parent">客户服务</a> > <a href="khfw3.php" class="a2">资料下载</a></div>
 	</div>
 	<div id="list">
 		<?php for($i=0;$i<count($record);$i++){
@@ -32,7 +32,16 @@
 			</div>
 		</div>
 		<?php
-		} ?>
+		}if(count($record)==0){
+		?>
+		<div class=list_line>
+			<div class=title>
+				<li>暂无相关内容</li>
+			</div>
+		</div>
+		<?php
+		}
+		?>
 	</div>
 	<div id=paginate><?php paginate();?></div>
 	<script type="text/javascript">

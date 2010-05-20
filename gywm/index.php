@@ -10,7 +10,7 @@
 <head>
 	<meta http-equiv=Content-Type content="text/html; charset=utf-8">
 	<meta http-equiv=Content-Language content=zh-CN>
-	<title>天地华宇-中国公路快运领导者</title><meta name="Keywords" content="天地华宇,天地华宇物流,天地华宇物流查询,华宇,华宇物流,华宇物流查询,天地华宇俱乐部,华宇俱乐部"/><meta name="Description" content="天地华宇-中国公路快运领导者"/>
+	<title>天地华宇-关于我们</title><meta name="Keywords" content="天地华宇,天地华宇物流,天地华宇物流查询,华宇,华宇物流,华宇物流查询,天地华宇俱乐部,华宇俱乐部"/><meta name="Description" content="天地华宇-中国公路快运领导者"/>
 	<?php
 		css_include_tag('gywm','tb');
 		use_jquery();
@@ -33,12 +33,12 @@
 		<div id=center>
 			<div id=c_left>
 				<div id=c_menu>
-					<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=5,0,0,0" width="174px" height="425px">
+					<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=5,0,0,0" width="174px" height="396px">
 				      <param name=movie value="/flash/left-gywm.swf">
 				      <param name=quality value=high>
 					  <param name="flashvars" value="showid=<?php echo $show_id;?>">
 				      <param name="wmode" value="transparent">
-				      <embed src="/flash/left-gywm.swf" quality=high pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" width="174" flashvars="showid=<?php echo $show_id;?>" height="425" wmode="transparent"></embed>
+				      <embed src="/flash/left-gywm.swf" quality=high pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" width="174" flashvars="showid=<?php echo $show_id;?>" height="396" wmode="transparent"></embed>
 				    </object>
 				</div>
 				<div id="zxkf"><a href="/khfw/?load=khfw2.php"><img src="/images/zxkf.gif"></a></div>

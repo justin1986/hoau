@@ -7,14 +7,60 @@
 </head>
 <?php
     require_once('../frame.php');
+	if($_POST['yz']!=$_SESSION['comment']||empty($_SESSION['comment'])){
+		alert('验证码错误！请重新输入！');
+		redirect('khfw2.php');
+		die();
+	}
+	if(strlen($_POST['post']['topic'])>150||empty($_POST['post']['topic'])){
+		alert("标题太长！");
+		redirect('khfw2.php');
+		die();
+	}
+	if(strlen($_POST['post']['wbnum'])>8){
+		alert("运单号！");
+		redirect('khfw2.php');
+		die();
+	}
+	if(strlen($_POST['post']['name'])>30||empty($_POST['post']['name'])){
+		alert("姓名太长！");
+		redirect('khfw2.php');
+		die();
+	}
+	if(strlen($_POST['post']['tel'])>50||empty($_POST['post']['tel'])){
+		alert("电话太长！");
+		redirect('khfw2.php');
+		die();
+	}
+	if(strlen($_POST['post']['email'])>50||empty($_POST['post']['email'])){
+		alert("太长邮箱！");
+		redirect('khfw2.php');
+		die();
+	}
+	if(strlen($_POST['post']['type'])>5||empty($_POST['post']['type'])){
+		alert("类型太长！");
+		redirect('khfw2.php');
+		die();
+	}
+	if(strlen($_POST['post']['message'])>1500||empty($_POST['post']['message'])){
+		alert("留言内容太长！");
+		redirect('khfw2.php');
+		die();
+	}
 	
 	$comment = new table_class('hoau_comment');
 	$comment->update_attributes($_POST['post'],false);
 	$comment->status = 1;
+	if(isset($_POST['admin'])){
+		$comment->is_adopt=2;
+	}else{
+		$comment->is_adopt=0;
+	}
+	$comment->ip = $_SERVER["REMOTE_ADDR"];
 	$comment->time = date("Y-m-d H:i:s");
 	$comment->save();
 	
 	alert("留言提交成功！请等待回复。");
-	redirect($_SERVER['HTTP_REFERER']);
+	redirect('khfw2.php');
 ?>
 </html>

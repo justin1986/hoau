@@ -18,7 +18,7 @@
 	?>
 </head>
 <body>
-<div class="breadcum"><a href="/" target="_parent">首页</a> > <a href="/gywm/" target="_parent">关于我们</a> > <a href="" class="a2">大事记</a></div>
+<div class="breadcum"><a href="/" target="_parent">首页</a> > <a href="/gywm/" target="_parent">关于我们</a> > <a href="gywm2.php" class="a2">大事记</a></div>
 	<div id="title"><?php echo $news[0]->title;?></div>
 	<div id="content"><?php echo $news[0]->news_content;?></div>
 	<script type="text/javascript">

@@ -19,7 +19,7 @@
 <body>
 	<div id="title">
 		<div style="float:left">相关政策</div>
-		<div class="breadcum"><a href="/" target="_parent">首页</a> > <a href="/drd/" target="_parent">定日达</a> > <a href="" class="a2">相关政策</a></div>
+		<div class="breadcum"><a href="/" target="_parent">首页</a> > <a href="/drd/" target="_parent">定日达</a> > <a href="drd4.php" class="a2">相关政策</a></div>
 	</div>
 	<div id="list">
 		<?php for($i=0;$i<count($record);$i++){
@@ -33,7 +33,16 @@
 			</div>
 		</div>
 		<?php
-		} ?>
+		}if(count($record)==0){
+		?>
+		<div class=list_line>
+			<div class=title>
+				<li>暂无相关内容</li>
+			</div>
+		</div>
+		<?php
+		}
+		?>
 	</div>
 	<div id=paginate><?php paginate();?></div>
 	<script type="text/javascript">

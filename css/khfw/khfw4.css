@@ -35,6 +35,6 @@ div{float:left; display:inline;}
 .c_info div{width:100px; height:30px; margin-left:10px; overflow:hidden;}
 .c_cont{line-height:20px; padding-left:10px; padding-top:10px; padding-bottom:10px; width:440px;}
 .date{width:140px; line-height:30px; padding-left:10px; color:#FF9900;}
-.reply{width:440px; padding-left:10px; line-height:30px; border-left:1px solid #999999; color:#FF9900;}
+.reply{width:440px; padding-left:10px; padding-top:10px; line-height:20px; border-left:1px solid #999999; color:#FF9900;}
 #paginate{width:650px; height:30px; margin-top:15px; font-size:12px; line-height:30px; color:#666666; text-align:center;}
 #paginate a{color:#FF9900; text-decoration:none;}

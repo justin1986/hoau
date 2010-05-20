@@ -18,7 +18,7 @@
 </head>
 <body>
 	<div id="title" style='background:url("/images/icon/xwzx.gif") no-repeat;'><div style="float:left">定日达特讯</div>
-		<div class="breadcum"><a name="top" href="/" target="_parent">首页</a> > <a href="/xwzx/" target="_parent">新闻中心</a> > <a class="a2" href="">定日达特讯</a></div>
+		<div class="breadcum"><a name="top" href="/" target="_parent">首页</a> > <a href="/xwzx/" target="_parent">新闻中心</a> > <a class="a2" href="xwzx4.php">定日达特讯</a></div>
 	</div>
 	<div id="list">
 		<?php for($i=0;$i<count($record);$i++){

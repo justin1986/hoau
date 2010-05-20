@@ -35,7 +35,7 @@
 </head>
 <body>
 	<div id="title" style='width:586px; height:41px; padding-left:55px; line-height:30px; font-size:14px; font-weight:bolder; color:#F76300; background:url("/images/icon/khfw.gif") no-repeat; float:left; display:inline;'><div style="float:left">常见问题解答</div>
-		<div class="breadcum"><a href="/" target="_parent">首页</a> > <a href="/khfw/" target="_parent">客户服务</a> > <a href="" class="a2">常见问题解答</a></div>
+		<div class="breadcum"><a href="/" target="_parent">首页</a> > <a href="/khfw/" target="_parent">客户服务</a> > <a href="khfw0.php" class="a2">常见问题解答</a></div>
 	</div>
     <table style="margin-left:25px;" border="0" align="left">
 			  <tr bordercolor="#FFFFFF">

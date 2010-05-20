@@ -19,7 +19,7 @@
 <body>
 	<div id="title">
 		<div style="float:left">问卷调查</div>
-		<div class="breadcum"><a href="/" target="_parent">首页</a> > <a href="/drd/" target="_parent">定日达</a> > <a href="" class="a2">问卷调查</a></div>
+		<div class="breadcum"><a href="/" target="_parent">首页</a> > <a href="/drd/" target="_parent">定日达</a> > <a href="drd5.php" class="a2">问卷调查</a></div>
 	</div>
 	<div id="list">
 		<?php for($i=0;$i<count($record);$i++){

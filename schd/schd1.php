@@ -18,7 +18,7 @@
 </head>
 <body>
 	<div id="title" style='background:url("/images/icon/schd.gif") no-repeat;'><div style="float:left">市场推广</div>
-		<div class="breadcum"><a href="/" target="_parent">首页</a> > <a href="/schd/" target="_parent">市场活动</a> > <a href="" class="a2">市场推广</a></div>
+		<div class="breadcum"><a href="/" target="_parent">首页</a> > <a href="/schd/" target="_parent">市场活动</a> > <a href="schd1.php" class="a2">市场推广</a></div>
 	</div>
 	<div id="list">
 		<?php for($i=0;$i<count($record);$i++){

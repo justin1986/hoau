@@ -35,7 +35,7 @@
 </head>
 <body>
 	<div id="title" style='width:586px; height:41px; padding-left:55px; line-height:30px; font-size:14px; font-weight:bolder; color:#F76300; background:url("/images/icon/khfw.gif") no-repeat; float:left; display:inline;'><div style="float:left">网站地图</div>
-		<div class="breadcum"><a href="/"  target="_parent">首页</a> > 网站地图</div>
+		<div class="breadcum"><a href="/"  target="_parent">首页</a> > <a href="db1.php" class="a2">网站地图</a></div>
 	</div>
     <table style="margin-left:55px; float:left;" border="0" align="left">
 			  <tr bordercolor="#FFFFFF">
@@ -63,7 +63,6 @@
 					<a target="_parent" href="/cpfw/index.php?id=2">公路零担</a>
 					<a target="_parent" href="/cpfw/index.php?id=1">整车特运</a>
 					<a target="_parent" href="/cpfw/index.php?id=3">附加值服务</a>
-					<a target="_parent" href="/cpfw/index.php?id=5">国际快递</a>
 				</td>
 		      </tr>
 			  <tr bordercolor="#FFFFFF">
@@ -73,7 +72,7 @@
 			    <td align="left" class="STYLE4 td_style STYLE0">
 			    	<a target="_parent" href="/khfw/index.php?id=2">客户留言</a>
 					<a target="_parent" href="/khfw/index.php?id=3">资料下载</a>
-					<a target="_parent" href="/khfw/index.php?id=4">违禁品查询</a>
+					<a target="_parent" href="/khfw/index.php?id=4">违禁运货物查询</a>
 					<a target="_parent" href="/khfw/index.php?id=0">常见问题解答</a>
 					<a target="_parent" href="/khfw/?load=khfw1.php">网点查询</a>
 					<a target="_parent" href="/khfw/?load=hwzz.php">货物追踪</a>
@@ -94,13 +93,13 @@
 			  <tr bordercolor="#FFFFFF">
 			    <td align="left" class="STYLE4 td_style STYLE0">
 			    	<a target="_parent" href="/xwzx/index.php?id=0">新闻稿</a>
-					<a target="_parent" href="/xwzx/index.php?id=1">新闻剪报</a>
-					<a target="_parent" href="/xwzx/index.php?id=2">华宇动态</a>
+					<a target="_parent" href="/xwzx/index.php?id=1">媒体报道</a>
+					<a target="_parent" href="/xwzx/index.php?id=2">天地华宇动态</a>
 					<a target="_parent" href="/xwzx/index.php?id=3">物流资讯</a>
 				</td>
 		      </tr>
 			  <tr bordercolor="#FFFFFF">
-			    <td align="left" class="STYLE4"><strong><a target="_parent" style="color:#FF6600" href="/rczp/">人才招聘</a></strong></td>
+			    <td align="left" class="STYLE4"><strong><a target="_parent" style="color:#FF6600" href="/rczp/">投资于人</a></strong></td>
 		      </tr>
 			  <tr bordercolor="#FFFFFF">
 			    <td align="left" class="STYLE4 td_style STYLE0">
@@ -119,6 +118,7 @@
 					<a target="_parent" href="/gywm/index.php?id=3">资质荣誉</a>
 					<a target="_parent" href="/gywm/index.php?id=4">社会责任</a>
 					<a target="_parent" href="/gywm/index.php?id=5">联系方式</a>
+					<a target="_parent" href="/gywm/index.php?id=6">关于TNT</a>
 				</td>
 		      </tr>
 		  </table>

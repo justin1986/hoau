@@ -28,7 +28,7 @@
 ?>
 <body>
 	<table width="795" border="0" id="list">
-	<form id="user_form" method="post" action="/pub/pub.post.php">
+	<form id="user_form" method="post" action="comment.post.php">
 		<tr class=tr1>
 			<td colspan="2">　查看留言　<a href="<?php echo $_SERVER['HTTP_REFERER'];?>">返回</a></td>
 		</tr>
@@ -75,6 +75,10 @@
 			</td>
 		</tr>
 		<tr class=tr3>
+			<td>回复时间：</td>
+			<td align="left"><?php echo date_format($comment->replytime,"Y-m-d");?></td>
+		</tr>
+		<tr class=tr3>
 			<td>回复内容：</td>
 			<td align="left"><textarea name="post[reply]" id="name" style="width:300px; height:100px;"><?php echo $comment->reply;?></textarea></td>
 		</tr>
@@ -91,9 +95,7 @@
 		<tr class=tr3>
 			<td colspan="2"><button type="submit">提交</button></a></td>
 		</tr>
-		<input type="hidden" name="replytime" value="<?php echo ($comment->replytime!='')?date_format($records[$i]->replytime,'Y-m-d H:i:s'):date('Y-m-d H:i:s');?>"> 
 		<input type="hidden" name="id" value="<?php echo $id;?>"> 
-		<input type="hidden" name="db_table" value="<?php echo $post_table;?>">
 		<input type="hidden" name="url" value="<?php echo $post_url;?>">
 		<input type="hidden" name="post_type" value="edit">
 	</form>

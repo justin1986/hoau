@@ -29,6 +29,7 @@
 		<div id=top>
 			<div id=logo>
 				<div id=logo_img>
+					<a href="/"><img border="0" src="/images/logo.jpg"></a>
 				</div>
 			</div>
 			<div id=top_box>

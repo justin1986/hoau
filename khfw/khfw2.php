@@ -26,7 +26,7 @@
 </head>
 <body>
 	<div id="title"><div style="float:left">客户留言</div>
-		<div class="breadcum"><a href="/" target="_parent">首页</a> > <a href="/khfw/" target="_parent">客户服务</a> > <a href="" class="a2">客户留言</a></div>
+		<div class="breadcum"><a href="/" target="_parent">首页</a> > <a href="/khfw/" target="_parent">客户服务</a> > <a href="khfw2.php" class="a2">客户留言</a></div>
 	</div>
 	<div id="search">
 		<div>

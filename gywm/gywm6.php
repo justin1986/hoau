@@ -28,7 +28,7 @@ td img {display: block;}.STYLE1 {
 
   <tr>
    <td><div style="width:650px; height:46px; background:url(/cpfw/images/8888_r1_c1.gif);">
-			<div class="breadcum"><a href="/" target="_parent">首页</a> > <a href="/gywm/" target="_parent">关于我们</a> > <a href="" class="a2">关于TNT</a></div>
+			<div class="breadcum"><a href="/" target="_parent">首页</a> > <a href="/gywm/" target="_parent">关于我们</a> > <a href="gywm6.php" class="a2">关于TNT</a></div>
 		</div>
 	</td>
    <td><img src="/cpfw/images/spacer.gif" width="1" height="82" border="0" alt="" /></td>

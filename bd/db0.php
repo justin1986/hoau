@@ -24,7 +24,7 @@
   <tr>
   	<td>
   		<div id="title" style='width:590px; height:41px; padding-left:55px; line-height:30px; font-size:14px; font-weight:bolder; color:#F76300; background-image:url("images/p1.png"); float:left; display:inline;'>
-			<div class="breadcum"><a href="/" target="_parent">首页</a> > 法律声明</div>
+			<div class="breadcum"><a href="/" target="_parent">首页</a> > <a href="db0.php" class="a2">法律声明</a></div>
 		</div>
   	</td>
     <td><img src="images/p1.png" width="650" height="45" /></td>
