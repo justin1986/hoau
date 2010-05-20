@@ -1,0 +1,30 @@
+body {margin:0px; font-family:宋体; font-size:12px; color:#000000;}
+ul{margin:0px; padding:0px;}
+li{margin:0px; }
+p{margin:0px; padding:0px;}
+
+#title{width:586px; height:41px; padding-left:55px; line-height:30px; font-size:14px; font-weight:bolder; color:#F76300; background:url("/images/icon/rczp.gif") no-repeat; float:left; display:inline;}
+
+#a_title{width:609px; height:25px; margin-left:15px; margin-top:15px; line-height:25px; font-size:14px; font-weight:bolder; color:#FF9900; border-bottom:1px dotted #CCCCCC; float:left; display:inline;}
+
+
+#box{width:650px; height:480px; float:left; display:inline;}
+.line{width:584px; height:30px; margin-left:15px; padding-left:25px; line-height:30px; color:#666666; background:#F3F3F3; float:left; display:inline;}
+.line2{width:584px; height:30px; margin-left:15px; padding-left:25px; line-height:30px; color:#666666; float:left; display:inline;}
+.img1{margin-top:9px; float:left; display:inlne;}
+.line3{width:564px; height:30px; margin-left:35px; padding-left:20px; margin-top:20px; line-height:30px; font-size:14px; font-weight:bolder; background:#F3F3F3; float:left; display:inline;}
+.line4{width:564px; height:30px; margin-left:35px; padding-left:20px; line-height:30px; font-size:14px; float:left; display:inline;}
+.line5{width:564px; height:30px; margin-left:35px; padding-left:20px; line-height:30px; font-size:14px; background:#F3F3F3; float:left; display:inline;}
+#zw_box{width:544px; padding-left:20px; padding-right:20px; margin-left:35px; float:left; display:inline; }
+
+#shuom{width:575px;  margin-left:30px; margin-top:10px; line-height:21px; color:#666666; float:left; display:inline;}
+
+#paginate{width:620px; height:30px; margin-bottom:1px; text-align:center; line-height:30px; float:left; display:inline;}
+#paginate a{color:#000000; text-decoration:none;}
+
+#bottom{width:600px; height:100px; float:left; display:inline;}
+
+#tj{width:85px; height:20px; margin-top:5px; margin-left:100px; border:0; background:url("/images/icon/tjjl.jpg"); float:left; display:inline;}
+#sq{width:85px; height:20px; margin-top:5px; cursor:pointer; border:0; background:url("/images/icon/sq.jpg"); float:right;; display:inline;}
+.line_link{width:80px; height:18px; margin-right:10px; margin-top:5px; text-align:center; line-height:18px; border:1px solid #C2C2C2; background:url("/images/icon/zp_line.jpg") repeat-x; text-decoration:none; color:#666666; font-size:12px; float:left; display:inline;}
+.line_link:hover{color:#ff9900;}

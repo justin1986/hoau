@@ -1,0 +1,28 @@
+#menu{width:667px; height:105px; border-right:1px solid #F47621; float:left; display:inline;}
+#menu #tel{width:298px; height:50px; margin-top:30px; margin-right:10px; background:url(/images/drd/tel.gif); float:right; display:inline;}
+#menu #menu_list{width:667px; height:20px; margin-top:5px; float:left; display:inline;}
+#menu #menu_list .menu_dom{height:20px; padding-left:10px; padding-right:10px; border-right:1px solid #F47621; float:left; display:inline;}
+#menu #menu_list .menu_dom a{color:#F47621; text-decoration:none;}
+#menu #menu_list .menu_dom img{border:0}
+
+
+#bottom{width:980px; height:50px; background:url(/images/drd/bottom.gif) no-repeat; float:left; display:inline;}
+#bottom #bottom_box{width:898px; height:25px; margin-top:6px; margin-left:37px; float:left; display:inline;}
+#bottom #bottom_box .bottom_dom{height:15px; line-height:15px; margin-top:5px; padding-left:10px; padding-right:10px; font-size:12px; font-family:Arial,Helvetica,sans-serif; border-right:1px solid #8C8C8C; float:left; display:inline;}
+#bottom #bottom_box .bottom_dom a{color:#000000; text-decoration:none;}
+#bottom #bottom_box .bottom_dom2{height:12px; line-height:12px; margin-top:5px; padding-left:10px; padding-right:10px; font-size:12px; font-family:Arial,Helvetica,sans-serif; float:right; display:inline;}
+#bottom2{width:925px; height:15px; line-height:15px; text-align:right; float:left; display:inline; font-family:Arial,Helvetica,sans-serif;}
+
+/*
+#menu_box_box{width:100%; top:105px; position:absolute;}
+#menu_box{width:650px; height:29px; padding-left:150px; background:url(/images/menu/menu.gif) no-repeat; margin:0 auto;}
+*/
+#menu_box{ position:absolute;width:600px; height:29px; top:110px; background:url(/images/menu/menu.jpg) no-repeat; }
+#menu_box .mb_box{height:25px; margin-top:4px; margin-left:25px; line-height:25px; float:left;}
+#menu_box .mb_box a{color:#F37620; text-decoration:none;}
+#menu_box .mb_box a:hover{ font-weight:bolder;}
+
+#zxkf{width:174px; height:60px; margin-top:20px; margin-left:46px; float:left; display:inline;}
+#zxkf img{border:0}
+
+

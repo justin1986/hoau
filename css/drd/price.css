@@ -1,0 +1,35 @@
+body {margin:0px; font-family:宋体; font-size:12px; line-height:0px; color:#000000;}
+ul{margin:0px; padding:0px;}
+li{margin:0px; }
+p{margin:0px; padding:0px;}
+
+#title{width:586px; height:41px; padding-left:55px; line-height:30px; font-size:14px; font-weight:bolder; color:#F76300; background:url("/images/drd/title.gif"); float:left; display:inline;}
+
+#select{width:600px; height:90px; margin-left:40px; margin-top:25px; float:left; display:inline;}
+#select select{border:1px solid #EC871F;}
+#select #start{width:600px; height:30px; font-weight:bolder; line-height:30px; float:left; display:inline;}
+#select #end{width:600px; height:30px; font-weight:bolder; line-height:30px; float:left; display:inline;}
+#select .word{width:90px; height:30px; color:#656565; float:left; display:inline;}
+#select .div{width:100px; height:20px; margin-top:5px; float:left; display:inline;}
+#select #end #cx{width:36px; height:21px; margin-left:30px; margin-top:5px; border:0; cursor:pointer; background:url(/images/drd/cx.gif); float:left; display:inline;}
+
+#show_result{width:610px; height:300px; margin-left:33px; float:left; display:inline;}
+#show_result #r_title{width:610px; height:28px; background:#F47621; float:left; display:inline;}
+#show_result #r_title #title_box{width:610px; height:26px; margin-top:1px; border-top:1px solid #FFB520; float:left; display:inline;}
+#show_result #r_title #title_box .box{height:16px; color:#ffffff; font-weight:bolder; padding-left:11px; padding-right:11px; line-height:16px; margin-top:5px; border-left:1px solid #FFB520; border-right:1px solid #FD4D01; float:left; display:inline;}
+
+#main{width:610px; height:270px; float:left; display:inline;}
+#box{width:610px; height:270px; float:left; display:inline;}
+.line{width:606px; height:30px; margin-left:3px; border-bottom:1px dashed #CDCDCD; line-height:24px; float:left; display:inline;}
+.line .line1{width:70px; height:24px; text-align:center; float:left; display:inline;}
+.line .line2{width:120px; height:24px; text-align:center; float:left; display:inline;}
+.line .line3{width:90px; height:24px; text-align:center; float:left; display:inline;}
+.line .line4{width:107px; height:24px; text-align:center; float:left; display:inline;}
+.line .line5{width:110px; height:24px; text-align:center; float:left; display:inline;}
+.line .line6{width:106px; height:24px;  text-align:center; float:left; display:inline;}
+
+#bz{width:400px; height:30px; margin-left:30px; font-weight:bolder; color:#666666; line-height:30px; float:left; display:inline;}
+
+#paginate{width:620px; height:20px; margin-top:10px; margin-bottom:1px; text-align:center; line-height:20px; float:left; display:inline;}
+#paginate a{color:#000000; text-decoration:none;}
+

@@ -1,0 +1,19 @@
+body {margin:0px; font-family:宋体; font-size:12px; line-height:0px; color:#000000;}
+ul{margin:0px; padding:0px;}
+li{margin:0px; list-style-type:none;}
+p{margin:0px; padding:0px;}
+
+#ibody{width:980px; margin:0 auto;}
+#top{width:980px; height:105px; float:left; display:inline; }
+#logo{width:274px; height:105px; border-right:1px solid #F47621; float:left; display:inline;}
+#logo #logo_img{width:230px; height:87px; margin-top:20px;  margin-left:45px; background:url(/images/logo.jpg) no-repeat; float:left; display:inline;}
+#top_box{width:704px; float:left; display:inline; }
+
+#center{width:980px; background:url(/images/drd/top.gif) no-repeat; margin-top:12px; float:left; display:inline;}
+#center #c_left{width:252px; float:left; display:inline;}
+#center #c_left #c_menu{width:174px; height:237px; margin-top:36px; margin-left:48px; float:left; display:inline;}
+#center #c_left #hd{width:179px; height:152px; margin-top:25px; margin-left:46px; float:left; display:inline;}
+#center #c_left #t_logo{width:177px; height:78px; background:url(/images/drd/tnt_logo.gif); margin-top:20px; margin-left:45px; float:left; display:inline;}
+#center #c_right{width:690px; float:left; display:inline;}
+#center #c_right #drd_pic{width:682px; height:131px; margin-top:35px; background:url(/images/top/8.jpg) no-repeat; float:left; display:inline;}
+#center #c_right #iframe{width:662px; margin-top:20px; margin-left:20px; float:left; display:inline;}

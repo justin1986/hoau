@@ -1,0 +1,15 @@
+body {margin:0px; font-family:宋体; font-size:12px; line-height:0px; color:#000000;}
+
+#title{width:580px; height:41px; padding-left:55px; line-height:30px; font-size:14px; font-weight:bolder; color:#F76300; background:url("/images/drd/title.gif") no-repeat; float:left; display:inline;}
+
+.list_line{width:690px; margin-top:20px;  margin-left:50px; font-size:13px; line-height:20px; float:left; display:inline}
+.num{width:15px;height:20px; color:#FF6600; font-weight:bolder; float:left; display:inline;}
+.title{width:600px; color:#FF6600; font-weight:bolder; float:left; display:inline;}
+.item_box{width:690px; float:left; display:inline}
+.item{width:690px; color:#4C4C4C; float:left; display:inline;}
+
+#tj{width:120px; height:25px; margin-top:40px; margin-left:50px; margin-bottom:20px; line-height:20px; background:#cccccc; border:1px #FF6600 solid; float:left; display:inline;}
+
+#paginate{width:620px; height:30px; margin-bottom:1px; text-align:center; line-height:30px; float:left; display:inline;}
+#paginate a{color:#000000; text-decoration:none;}
+

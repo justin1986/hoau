@@ -1,0 +1,10 @@
+body {margin:0px; font-family:宋体; font-size:12px; line-height:0px; color:#000000;}
+ul{margin:0px; padding:0px;}
+li{margin:0px; }
+p{margin:0px; padding:0px;}
+
+#title{width:640px; color: #F47621; text-align:center; font-size:16px; line-height:30px; font-weight:bolder; float:left; display:inline;}
+#time{width:640px; height:20px; color:#666666; font-size:12px; text-align:center; line-height:20px; float:left; display:inline;}
+#content{width:540px; margin-left:35px; margin-top:30px; padding:25px 15px 25px 15px; line-height:15px; float:left; display:inline;}
+#back{width:600px; height:30px; margin-top:30px; margin-right:40px; font-weight:bolder; text-align:right; line-height:30px; font-size:14px; float:left; display:inline;}
+#back a{color:#ff6600;}

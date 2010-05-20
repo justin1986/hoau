@@ -1,0 +1,8 @@
+body {margin:0px; font-family:宋体; font-size:12px; line-height:0px; color:#000000;}
+ul{margin:0px; padding:0px;}
+li{margin:0px; }
+p{margin:0px; padding:0px;}
+
+.line{width:540px; height:30px; line-height:30px; float:left; display:inline;}
+.line .name{width:60px; height:30px; float:left; display:inline;}
+.line .context{width:480px; height:30px; float:left; display:inline;}

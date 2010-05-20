@@ -1,0 +1,46 @@
+﻿body {margin:0px; font-family:宋体; font-size:12px; line-height:0px; color:#000000;}
+ul{margin:0px; padding:0px;}
+li{margin:0px; }
+p{margin:0px; padding:0px;}
+
+#title{width:586px; height:41px; padding-left:55px; line-height:30px; font-size:14px; font-weight:bolder; color:#F76300; background:url("/images/drd/title.gif"); float:left; display:inline;}
+#title a{color:#F76300; text-decoration:none;}
+
+#select{width:600px;  margin-left:40px; margin-top:10px; float:left; display:inline;}
+#select #start{width:600px; font-weight:bolder; line-height:30px; float:left; display:inline;}
+#select #start input{width:280px; margin-top:3px; float:left; display:inline;}
+#select #end{width:600px; margin-top:5px; font-weight:bolder; line-height:30px; float:left; display:inline;}
+#select #end input{width:80px; margin-top:3px; float:left; display:inline;}
+#select .word{width:120px; height:30px; color:#656565; float:left; display:inline;}
+#select .div{height:30px; color:#656565; float:left; display:inline;}
+#select .cx{width:36px; height:21px; margin-top:3px; margin-left:60px; border:0; cursor:pointer; background:url(/images/drd/cx.gif); float:left; display:inline;}
+#select #dkh_an{width:303px; height:32px; float:left; display:inline;}
+#select .bz{width:600px; height:25px; line-height:25px; color:#F76300; font-weight:normal; font-size:13px; float:left; display:inline;}
+
+
+#result{width:600px; margin-left:40px; float:left; display:inline;}
+#result .yd_box{width:600px; margin-top:10px; float:left; display:inline;border:1px solid}
+.yd_title{width:145px; height:35px;  float:left;}
+.yd_title1{background:url("/images/drd/drd_logo.gif") no-repeat;}
+.yd_title2{background:url("/images/drd/2.jpg") no-repeat;}
+.yd_title3{background:url("/images/drd/3.jpg") no-repeat;}
+.yd_title4{background:url("/images/drd/4.jpg") no-repeat;}
+.title_box{width:590px; height:25px; margin-top:6px; margin-left:0px; padding-left:10px; font-size:15px; font-weight:bolder; line-height:25px; background:#F47621; float:left; display:inline;}
+.yd_box_box{width:550px; margin-left:50px; float:left; display:inline;}
+ .line{width:550px; height:16px; line-height:16px; float:left; display:inline;}
+ .l_box{width:225px; height:16px; float:left; display:inline;}
+
+
+
+#d_title{width:240px; height:30px; margin-top:10px; font-weight:bolder; font-size:15px; color:#666666; line-height:30px; float:left; display:inline;}
+.box1{width:50px; height:25px; margin-top:5px; line-height:25px; float:left; display:inline;}
+.box2{width:180px; height:25px; margin-top:5px; line-height:25px; float:left; display:inline;}
+.box2 input{width:140px; height:20px; margin-top:2px; border:1px solid #656565; float:left; display:inline;}
+#dl{width:80px; height:20px; margin-top:25px; margin-left:60px; background:#999999; float:left; display:inline;}
+
+.record{width:100%;float:left;display:block;margin-top:10px;line-height:20px;}
+.record_item{float:left;margin-left:5px}
+table{line-height:20px;}
+
+
+#TB_window{top:20%}

@@ -1,0 +1,13 @@
+body {margin:0px; font-family:宋体; font-size:12px; line-height:0px; color:#000000;}
+ul{margin:0px; padding:0px;}
+li{margin:0px; }
+p{margin:0px; padding:0px;}
+
+#title{width:586px; height:41px; padding-left:55px; line-height:30px; font-size:14px; font-weight:bolder; color:#F76300; background:url("/images/drd/title.gif"); float:left; display:inline;}
+
+#top_box{width:599px; height:105px; margin-left:35px; line-height:25px; border-bottom:1px dashed #999999; float:left; display:inline;}
+.b_title{width:290px; height:25px; padding-left:10px; color:#EF8B3D; font-weight:bolder; float:left; display:inline;}
+.line{width:290px; height:25px; padding-left:10px; float:left; display:inline;}
+
+.box{width:600px; height:100px; margin-left:35px; line-height:25px; border-bottom:1px dashed #999999; float:left; display:inline;}
+.b_box{width:300px; height:90px; margin-top:10px; float:left; display:inline;}

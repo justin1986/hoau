@@ -1,0 +1,22 @@
+body {margin:0px; font-family:宋体; font-size:12px; line-height:0px; color:#000000;}
+ul{margin:0px; padding:0px;}
+li{margin:0px; }
+p{margin:0px; padding:0px;}
+
+#title{width:586px; height:41px; padding-left:55px; line-height:30px; font-size:14px; font-weight:bolder; color:#F76300; background:url("/images/drd/title.gif"); float:left; display:inline;}
+#list{width:630px; margin-left:25px; float:left; display:inline;}
+#list .list_line{width:630px; height:140px; margin-bottom:20px; float:left; display:inline;}
+#list .list_line .ll_left{width:175px; height:140px; float:left; display:inline;}
+#list .list_line .ll_right{width:440px; height:140px; margin-left:15px; float:left; display:inline;}
+#list .list_line .img{width:175px; height:140px; float:left; display:inline;}
+#list .list_line .title{width:210px; height:30px; line-height:30px; font-weight:bolder; color:#EC871F; overflow:hidden; float:left; display:inline;}
+#list .list_line .title a{color:#EC871F; text-decoration:none;}
+#list .list_line .time{width:140px; height:30px; color:#999999; line-height:30px; float:left; display:inline;}
+#list .list_line .click_count{width:80px; height:30px; margin-left:10px; color:#999999; line-height:30px; float:left; display:inline;}
+#list .list_line .description{width:420px; height:110px; line-height:15px; color:#999999; float:left; display:inline;}
+#list .list_line .description a{color:#999999; text-decoration:none;}
+
+#paginate{width:620px; height:30px; margin-bottom:1px; text-align:center; line-height:30px; float:left; display:inline;}
+#paginate a{color:#000000; text-decoration:none;}
+
+.guoqi{line-height:20px; color:#999999}
