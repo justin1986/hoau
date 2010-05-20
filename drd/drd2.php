@@ -47,7 +47,13 @@
 				<div class="click_count">点击次数:<?php echo $record[$i]->click_count;?></div>
 				<?php if($record[$i]->guoqi!=''){ if(date_format($record[$i]->guoqi,'Y-m-d')<date("Y-m-d")){?>
 				<div class="guoqi" style="margin-right:105px;  float:right;">已过期</div>
-				<?php }}else{
+				<?php }else{
+				?>
+				<div class="guoqi" style="margin-right:105px;  float:right;"><img src="/images/new.gif"></div>
+				<?php
+					}
+				}
+				else{
 				?>
 				<div class="guoqi" style="margin-right:105px;  float:right;"><img src="/images/new.gif"></div>
 				<?php

@@ -19,4 +19,4 @@ p{margin:0px; padding:0px;}
 #paginate{width:620px; height:30px; margin-bottom:1px; text-align:center; line-height:30px; float:left; display:inline;}
 #paginate a{color:#000000; text-decoration:none;}
 
-.guoqi{line-height:20px; color:#999999}
+.guoqi{line-height:20px; color:#999999; float:left; display:inline;}
