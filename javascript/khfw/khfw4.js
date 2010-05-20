@@ -116,6 +116,7 @@ $(function(){
 							$('#com_form').submit();
 						}
 						else {
+							$("#pic").attr('src','yz.php?reload='+Math.round(Math.random()*10000));
 							alert('验证码错误，请重新输入！');
 							$("#yz").focus();
 							return false;
@@ -131,6 +132,7 @@ $(function(){
 					$('#com_form').submit();
 				}
 				else {
+					$("#pic").attr('src','yz.php?reload='+Math.round(Math.random()*10000));
 					alert('验证码错误，请重新输入！');
 					$("#yz").focus();
 					return false;
