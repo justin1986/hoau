@@ -18,7 +18,7 @@
 </head>
 <body>
 	<div id="title" style='background:url("/images/icon/gywm.gif") no-repeat;'>
-		<div style="float:left">联系方式</div>
+		<div style="float:left">企业视频</div>
 		<div class="breadcum"><a href="/" target="_parent">首页</a> > <a href="/gywm/" target="_parent">关于我们</a> > <a href="gywm5.php" class="a2">联系方式</a></div>
 	</div>
 	<div id="top_box">

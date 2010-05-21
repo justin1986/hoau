@@ -1,0 +1,15 @@
+div{float:left; display:inline;}
+
+
+#title{width:586px; height:41px; padding-left:55px; line-height:30px; font-size:14px; font-weight:bolder; color:#F76300; background:url("/images/drd/title.gif");}
+#box{width:650px; background:#333333; margin-top:10px;}
+.vbox{width:610px; height:233px; margin-top:10px; margin-left:20px; background:#484848;}
+.left{width:318px; height:233px;}
+.right{width:280px; height:250px; margin-left:2px;}
+.title{width:280px; height:30px; line-height:30px; text-decoration:underline; text-align:center; font-weight:bolder; color:#FF9900; font-size:14px;}
+.desc{width:270px; height:160px; line-height:20px; font-size:13px; margin-left:10px; color:#ffffff; text-indent:2em; overflow:hidden;}
+.download{width:280px; height:20px; margin-top:15px; line-height:20px; text-align:right;}
+.download a{color:#fff; font-size:12px;}
+.line{width:610px; height:1px; margin-top:10px; margin-left:20px; font-size:1px; line-height:1px; border-bottom:1px dashed #AAAAAA;}
+#paginate{width:650px; height:40px; margin-top:15px; font-size:12px; line-height:30px; color:#ffffff; text-align:center;}
+#paginate a{color:#FF9900; text-decoration:none;}

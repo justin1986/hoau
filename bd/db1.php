@@ -117,6 +117,7 @@
 					<a target="_parent" href="/gywm/index.php?id=2">大事记</a>
 					<a target="_parent" href="/gywm/index.php?id=3">资质荣誉</a>
 					<a target="_parent" href="/gywm/index.php?id=4">社会责任</a>
+					<a target="_parent" href="/gywm/index.php?id=7">企业视频</a>
 					<a target="_parent" href="/gywm/index.php?id=5">联系方式</a>
 					<a target="_parent" href="/gywm/index.php?id=6">关于TNT</a>
 				</td>

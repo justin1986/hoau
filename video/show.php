@@ -1,7 +1,7 @@
 <?php
     require "../frame.php";
 	
-	$id = $_REQUEST['id'];
+	$id = intval($_GET['id']);
 	
 	$table = new table_class('hoau_video');
 	$table->find($id);
