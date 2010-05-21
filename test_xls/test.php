@@ -119,6 +119,7 @@ if(empty($_FILES)){
 	    $data->setOutputEncoding('utf-8');
 	    $data->read($file);
 		$db = get_db();
+		var_dump($data->sheets[0]['cells'][1]);
 	}
 	#alert('上传成功！');
 	#redirect($_SERVER['HTTP_REFERER']);

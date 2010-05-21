@@ -59,7 +59,7 @@ pageTracker._trackPageview();
 ?>  	
 <script>
 	$.post('show_yd.php',{'ydh':$("#yd_info").val(),'dkh':$('#dkh_login').val()},function(data){
-		if(date.indexOf('找不到相关记录')>0){
+		if(data.indexOf('找不到相关记录')>0){
 			alert('有1个或多个运单未找到记录，请重新输入！');
 		}
 		$("#result").html(data);
