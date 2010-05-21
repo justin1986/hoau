@@ -35,6 +35,12 @@
 			</td>
 		</tr>
 		<tr class=tr3>
+			<td width="130">定日达价格</td>
+			<td width="695" align="left">
+				<input type="file" name="price">	
+			</td>
+		</tr>
+		<tr class=tr3>
 			<td colspan="2" width="795" align="center"><input id="submit" type="submit" value="发布"></td>
 		</tr>
 		<input type="hidden" name=id value=<?php echo $id;?>>

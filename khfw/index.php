@@ -23,6 +23,9 @@
 	if($_GET['wdid']){
 		array_push($a, "wdid=" .$_GET['wdid']);
 	}
+	if($_GET['hwbh']){
+		$default_load .= "?hwbh=" .$_GET['hwbh'];
+	}
 	if(!empty($a)){
 		$default_load .= "?" . implode('&',$a);
 	}

@@ -1,14 +1,6 @@
-<?php require_once('../frame.php');?>
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-	<meta http-equiv=Content-Type content="text/html; charset=utf-8">
-	<meta http-equiv=Content-Language content=zh-CN>
-	<title></title>
-</head>
-<?php
+<?php require_once('../frame.php');
 require_once 'reader.php';
-	
+@header('Content-type: text/html;charset=UTF-8');
 rights($_SESSION["hoaurights"],'6');
 if(empty($_FILES)){
 	alert('上传文件太大！请重新上传');
@@ -118,8 +110,18 @@ if(empty($_FILES)){
 			$city->save();
 		}
 	}
-	alert('上传成功！');
-	redirect($_SERVER['HTTP_REFERER']);
+	if($_FILES['price']['name']!=''){
+		$upload = new upload_file_class();
+		$upload->save_dir = "/upload/xls/";
+		$xls = $upload->handle('price');
+		$file = "D:/www.hoau.net/newsite/website/upload/xls/" .$xls;
+		$data = new Spreadsheet_Excel_Reader();
+	    $data->setOutputEncoding('utf-8');
+	    $data->read($file);
+		$db = get_db();
+	}
+	#alert('上传成功！');
+	#redirect($_SERVER['HTTP_REFERER']);
 	/*
 	$data = new Spreadsheet_Excel_Reader();
     $data->setOutputEncoding('utf-8');
@@ -164,4 +166,3 @@ if(empty($_FILES)){
 		$yywd->save();
   	}*/
  ?>
- </html>
