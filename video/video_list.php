@@ -1,12 +1,15 @@
 <?php
 	require_once('../frame.php');
 	
-	$title = $_REQUEST['title'];
-	$is_adopt = $_REQUEST['adopt'];
+	$title = $_GET['title'];
+	//$is_adopt = $_REQUEST['adopt'];
 	$db = get_db();
 	$sql = "select * from hoau_video where 1=1";
-	
+	if($title){
+		$sql .= " and title like '%$title%'";
+	}
 	$records = $db->paginate($sql,20);
+	$count = count($records);
 ?>
 
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
@@ -16,16 +19,16 @@
 	<meta http-equiv=Content-Language content=zh-CN>
 	<title></title>
 	<?php
-		css_include_tag('admin');
+		css_include_tag('admin','colorbox');
 		use_jquery();
-		js_include_tag('admin_pub');
+		js_include_tag('admin_pub','jquery.colorbox-min');
 		rights($_SESSION["hoaurights"],'8');
 	?>
 </head>
 <body>
 	<table width="795" border="0">
 		<tr class="tr1">
-			<td colspan="5" width="795">　视频管理　<a href="video_add.php" style="color:#0000FF">视频上传</a>　
+			<td colspan="5" width="795">　视频管理　<a href="video_edit.php" style="color:#0000FF">视频上传</a>　
 			搜索　<input id=title type="text" value="<?php echo $title;?>">　<input type="button" value="搜索" id="hoau_search" style="border:1px solid #0000ff; height:21px"></td>
 		</tr>
 		<tr class="tr2">
@@ -36,6 +39,11 @@
 			<td><?php echo $records[$i]->title;?></td>
 			<td><?php echo date_format($records[$i]->created_at,"Y-m-d");?></td>
 			<td>
+				<?php if($records[$i]->photo_url){?>
+				<a href="<?php echo $records[$i]->photo_url;?>" class="colorbox">点击查看图片</a>
+				<?php }?>
+				<a href="<?php echo $records[$i]->video_url;?>" target="_blank">点击下载视频</a>
+				<a href="show.php?id=<?php echo $records[$i]->id;?>" class="colorbox">点击观看视频</a>
 				<?php if($records[$i]->is_adopt=="1"){?>
 					<span style="color:#FF0000;cursor:pointer" class="revocation" name="<?php echo $records[$i]->id;?>">撤消</span>
 				<?php }?>
@@ -58,3 +66,18 @@
 	</div>
 </body>
 </html>
+<script>
+	$(function(){
+		$(".colorbox").colorbox();
+		
+		$("#hoau_search").click(function(){
+			window.location.href="?title="+encodeURI($("#title").val());
+		})
+		
+		$("#title").keypress(function(event){
+				if (event.keyCode == 13) {
+					window.location.href="?title="+encodeURI($("#title").val());
+				}
+		});
+	});
+</script>
