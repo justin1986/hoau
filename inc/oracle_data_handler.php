@@ -163,10 +163,48 @@
 			if($ydbh){
 				$this->_get_info($ydbh);			
 			}
-		    
+		    $ret = query_oracle($sql);
+			if($ret === false || count($ret)<= 0) return false;
 		}
 		
-	}	
+	}
+	
+	class dkh_yd {
+		public $ydbh;
+		public $js;
+		public $tj;
+		public $hwmc;
+		public $qydmc;
+		public $mmdmc;
+		public $tyrq;
+		public $tyrmc;
+		public $tyrbh;
+		public $tyrlxdy1;
+		public $tyrdz;
+		public $shrmc;
+		public $shrlxr;
+		public $shrlxdy1;
+		public $shrdz;
+		public $khddh;
+		public $gzhjdyid;
+		public $rq;
+		public $czr;
+		public $sm;
+		public $gsjc;
+		public $ssjtgs;
+		public $dsfkhbh;
+		function get_info(){
+			$num = func_num_args();
+			if ($num <=0) return false;
+			$params = func_get_args();
+			$sql = "select * from hydata.ld_yd_dkh";
+			if($params[0]==1){
+				$sql .= " where YDBH=".$params[1];
+			}else{
+				$sql .= " where KHDDH=".$params[1];
+			}
+		}
+	}
 	
 	class ydgz_info_pt extends ydgz_info{
 		function _get_info($bh) {	

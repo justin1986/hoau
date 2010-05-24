@@ -72,7 +72,7 @@
 			    <td align="left" class="STYLE4 td_style STYLE0">
 			    	<a target="_parent" href="/khfw/index.php?id=2">客户留言</a>
 					<a target="_parent" href="/khfw/index.php?id=3">资料下载</a>
-					<a target="_parent" href="/khfw/index.php?id=4">违禁运货物查询</a>
+					<a target="_parent" href="/khfw/index.php?id=4">禁运货物查询</a>
 					<a target="_parent" href="/khfw/index.php?id=0">常见问题解答</a>
 					<a target="_parent" href="/khfw/?load=khfw1.php">网点查询</a>
 					<a target="_parent" href="/khfw/?load=hwzz.php">货物追踪</a>
