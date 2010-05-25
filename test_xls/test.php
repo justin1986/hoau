@@ -117,9 +117,32 @@ if(empty($_FILES)){
 		$file = "D:/www.hoau.net/newsite/website/upload/xls/" .$xls;
 		$data = new Spreadsheet_Excel_Reader();
 	    $data->setOutputEncoding('utf-8');
-	    $data->read($file);
 		$db = get_db();
-		var_dump($data->sheets[0]['cells'][1]);
+		$db->execute("delete from hoau_drd_price");
+		for ($i = 2; $i <= $data->sheets[0]['numRows']; $i++) {
+	    	$price = new table_class('hoau_drd_price');
+			$price->startprovince = $data->sheets[0]['cells'][$i][1];
+			$price->endprovince = $data->sheets[0]['cells'][$i][2];
+			$price->startcity = $data->sheets[0]['cells'][$i][3];
+			$price->endcity = $data->sheets[0]['cells'][$i][4];
+			$price->timeinterval = $data->sheets[0]['cells'][$i][5];
+			$price->pickday = $data->sheets[0]['cells'][$i][6];
+			$price->pickampm = $data->sheets[0]['cells'][$i][7];
+			$price->heavyprice = $data->sheets[0]['cells'][$i][8];
+			$price->lightprice = $data->sheets[0]['cells'][$i][9];
+			$price->initialprice = $data->sheets[0]['cells'][$i][10];
+			$price->opendate = $data->sheets[0]['cells'][$i][11];
+			$price->save();
+		}
+		$price = $db->query("select * from hoau_drd_price");
+		$count = count($price);
+		
+		for($i=0;$i<$count;$i++){
+			$pid = province_update('hoau_drd_price','0',$price[$i]->startprovince);
+			province_update('hoau_drd_price','1',$price[$i]->startcity,$pid);
+			$pid =  province_update('hoau_drd_price','0',$price[$i]->endprovince);
+			province_update('hoau_drd_price','1',$price[$i]->endcity,$pid);
+		}
 	}
 	#alert('上传成功！');
 	#redirect($_SERVER['HTTP_REFERER']);

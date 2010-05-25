@@ -161,12 +161,9 @@
 				$ydbh = $this->get_goods_info($param1,$param2);				
 			}
 			if($ydbh){
-				$this->_get_info($ydbh);			
+				$this->_get_info($ydbh);
 			}
-		    $ret = query_oracle($sql);
-			if($ret === false || count($ret)<= 0) return false;
 		}
-		
 	}
 	
 	class dkh_yd {
@@ -203,6 +200,9 @@
 			}else{
 				$sql .= " where KHDDH=".$params[1];
 			}
+			$ret = query_oracle($sql);
+			if($ret === false || count($ret)<= 0) return false;
+			$this->ydbh = $ret[YDBH][0];
 		}
 	}
 	
